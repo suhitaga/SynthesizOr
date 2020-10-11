@@ -29,7 +29,7 @@ function BlogPage() {
                 actions={[
                     <Icon type="setting" key="setting" />,
                     <Icon type="edit" key="edit" />,
-                    <a href={`/blog/post/${blog._id}`}> <Icon type="ellipsis" key="ellipsis" /></a>,
+                    <a href={`/blog/post/${blog._id}`}> <Icon type="fullscreen" key="fullscreen" /></a>,
                 ]}
             >
                 <Meta
