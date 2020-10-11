@@ -16,7 +16,7 @@ function BlogPage() {
                     console.log(response.data.blogs)
                     setBlogs(response.data.blogs)
                 } else {
-                    alert('Couldnt get blog`s lists')
+                    alert("Couldnt get blog's lists")
                 }
             })
     }, [])

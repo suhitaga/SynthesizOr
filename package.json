@@ -1,6 +1,6 @@
 {
   "homepage": "https://SuhitAgarwal.github.io/SynthesizOr",
-  "name": "synthesizor",
+  "name": "SynthesizOr",
   "version": "1.0.0",
   "description": "react blog",
   "main": "index.js",
@@ -9,24 +9,13 @@
     "npm": "6.9.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "node server/index.js",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "backend": "nodemon server/index.js",
     "frontend": "npm run front --prefix client",
     "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
   },
   "author": "Suhit Agarwal",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
     "bcrypt": "^3.0.6",
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",

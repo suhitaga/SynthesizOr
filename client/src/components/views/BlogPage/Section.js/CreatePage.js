@@ -28,7 +28,7 @@ function CreatePage(props) {
         setContent("");
 
         if (user.userData && !user.userData.isAuth) {
-            return alert('Please Log in first');
+            return alert('Please Sign In first');
         }
 
         const variables = {
